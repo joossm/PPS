@@ -6,18 +6,18 @@ import (
 )
 
 func main() {
-	s := makeString()
-	saveToFile(s, "program.c")
-	s = makeString2()
-	saveToFile(s, "program2.c")
-	s = makeString3()
-	saveToFile(s, "program3.c")
+	s := makeString(1000, 1)
+	saveToFile(s, "cFiles/program1000.c")
+	s = makeString(100000, 100)
+	saveToFile(s, "cFiles/program100000.c")
+	s = makeString(10000000, 10000)
+	saveToFile(s, "cFiles/program10000000.c")
 }
-func makeString() string {
+func makeString(endRange int, increment int) string {
 	var s string
-	s = "#include stdio.h\n"
+	s = "#include <stdio.h>\n"
 	s = s + "\nvoid p(int x) {\n  switch (x) {\n"
-	for i := 0; i < 1000; i++ {
+	for i := 0; i < endRange; i = i + increment {
 		s = s + "    case" + strconv.Itoa(i) + ": q" + strconv.Itoa(i) + "(); break;\n"
 	}
 	s = s + "  }\n}"
@@ -26,24 +26,4 @@ func makeString() string {
 func saveToFile(s string, name string) {
 	os.Create(name)
 	os.WriteFile(name, []byte(s), 0644)
-}
-func makeString2() string {
-	var s string
-	s = "#include stdio.h\n"
-	s = s + "\nvoid p(int x) {\n  switch (x) {\n"
-	for i := 0; i < 100000; i = i + 100 {
-		s = s + "    case" + strconv.Itoa(i) + ": q" + strconv.Itoa(i) + "(); break;\n"
-	}
-	s = s + "  }\n}"
-	return s
-}
-func makeString3() string {
-	var s string
-	s = "#include stdio.h\n"
-	s = s + "\nvoid p(int x) {\n  switch (x) {\n"
-	for i := 0; i < 10000000; i = i + 10000 {
-		s = s + "    case" + strconv.Itoa(i) + ": q" + strconv.Itoa(i) + "(); break;\n"
-	}
-	s = s + "  }\n}"
-	return s
 }

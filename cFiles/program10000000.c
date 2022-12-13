@@ -1,4 +1,4 @@
-#include stdio.h
+#include <stdio.h>
 
 void p(int x) {
   switch (x) {
