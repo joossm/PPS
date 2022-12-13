@@ -20,7 +20,7 @@ func makeString(endRange int, increment int) string {
 	s = "#include <stdio.h>\n"
 	s = s + "\nvoid p(int x) {\n  switch (x) {\n"
 	for i := 0; i < endRange; i = i + increment {
-		s = s + "    case" + strconv.Itoa(i) + ": q" + strconv.Itoa(i) + "(); break;\n"
+		s = s + "    case " + strconv.Itoa(i) + ": q" + strconv.Itoa(i) + "(); break;\n"
 	}
 	s = s + "  }\n}"
 	return s
