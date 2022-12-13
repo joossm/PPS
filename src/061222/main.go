@@ -10,7 +10,7 @@ func main() {
 	fmt.Scan(&b)
 	p := 1
 	c := a
-
+	println("a", "b", "c", "p")
 	// Invariante: c^b * p = A^B
 	for b != 0 {
 		println(a, b, c, p)
