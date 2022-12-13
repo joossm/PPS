@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed3878c6-b991-4001-821c-de8ad07374db" name="Changes" comment="init" />
+    <list default="true" id="ed3878c6-b991-4001-821c-de8ad07374db" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/src/A3C/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/A3C/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +139,7 @@
       <workItem from="1669898161505" duration="9000" />
       <workItem from="1670324371224" duration="5413000" />
       <workItem from="1670927023566" duration="1275000" />
-      <workItem from="1670928378016" duration="1662000" />
+      <workItem from="1670928378016" duration="2476000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667820392682</created>
@@ -174,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670929642684</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init">
+      <created>1670930257299</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670930257299</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
