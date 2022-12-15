@@ -6,12 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ed3878c6-b991-4001-821c-de8ad07374db" name="Changes" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cFiles/program1000.c" beforeDir="false" afterPath="$PROJECT_DIR$/cFiles/program1000.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cFiles/program100000.c" beforeDir="false" afterPath="$PROJECT_DIR$/cFiles/program100000.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cFiles/program10000000.c" beforeDir="false" afterPath="$PROJECT_DIR$/cFiles/program10000000.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cFiles/program2000.c" beforeDir="false" afterPath="$PROJECT_DIR$/cFiles/program2000.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cFiles/programm2000.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A3C/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/A3C/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cFiles/program1000.c" beforeDir="false" afterPath="$PROJECT_DIR$/A2_131222/cFiles/program1000.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cFiles/program100000.c" beforeDir="false" afterPath="$PROJECT_DIR$/A2_131222/cFiles/program100000.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cFiles/program10000000.c" beforeDir="false" afterPath="$PROJECT_DIR$/A2_131222/cFiles/program10000000.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cFiles/program2000.c" beforeDir="false" afterPath="$PROJECT_DIR$/A2_131222/cFiles/program2000.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A3C/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/A2_131222/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,26 +59,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/A2_131222" />
       <recent name="$PROJECT_DIR$/cFiles" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go (1)">
+  <component name="RunManager" selected="Go Build.go build main.go (2)">
     <configuration name="A3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A3.A3" />
-      <module name="PPS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A3.Main" />
       <module name="PPS" />
       <extension name="coverage">
         <pattern>
@@ -107,6 +94,14 @@
       <filePath value="$PROJECT_DIR$/src/A3C/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="PPS" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/A2_131222/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="PPS" />
       <working_directory value="$PROJECT_DIR$" />
@@ -117,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (2)" />
         <item itemvalue="Go Build.go build main.go (1)" />
         <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build main2.go" />
         <item itemvalue="Application.A3" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +140,7 @@
       <workItem from="1669898161505" duration="9000" />
       <workItem from="1670324371224" duration="5413000" />
       <workItem from="1670927023566" duration="1275000" />
-      <workItem from="1670928378016" duration="3793000" />
+      <workItem from="1670928378016" duration="4461000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1667820392682</created>
@@ -196,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670931224840</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="init">
+      <created>1670939262899</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670939262899</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

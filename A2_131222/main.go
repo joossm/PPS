@@ -14,6 +14,7 @@ func main() {
 	saveToFile(s, "cFiles/program10000000.c")
 	s = makeString(2000, 2)
 	saveToFile(s, "cFiles/program2000.c")
+	println("CREATED C-FILES")
 }
 func makeString(endRange int, increment int) string {
 	var s string
